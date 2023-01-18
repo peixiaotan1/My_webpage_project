@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url("sources/daheitian.jpg");
+    background-size: cover;
+}
+
+.header li{
+    display: inline-block;
+    text-decoration: none;
+    color:antiquewhite;
+    padding: 0 10%;
+    font-size: 2em;
+
+}
+.header li:hover{
+    background-color: rgba(255,255,255, .3);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.theimage{
+    display: block;
+    margin:0px 0px 0px 20px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    border-top: 1px solid rgba(255,255,255, .3);
+    background-blend-mode: multiply;
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.something{
+    color: antiquewhite;
+    font-family: "Montserrat", sans-serif;
+}
+
+section{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text{
+    color:aliceblue;
+    font-size: large;
+    margin-bottom: 2em;
+    display: block;
+    width: 60%;
+    text-align: center;
+    font-family: cursive;
+}
+.box{
+    color:rgb(158, 134, 135);
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    background: rgba(0,0,0,0.0);
+    margin-top: 40px auto;
+    cursor: pointer;
+}
+
+.box:hover{
+    animation: heartBeat 1.3s infinite;
+}
+@keyframes heartBeat{
+    from{
+        transfrom: scale(1);
+    }
+    14%{
+        transform: scale(1.3);
+    }
+    28%{
+        transform: scale(1);
+    }
+    42%{
+        transform: scale(1.3);
+    }
+    78%{
+        transform: scale(1);
+    }
+    92%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
