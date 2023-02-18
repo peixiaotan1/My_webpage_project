@@ -9,6 +9,16 @@ body{
     background-size: cover;
 }
 
+a:link, a:visited {
+    color: antiquewhite;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+    color: antiquewhite;
+    text-decoration: none;
+  }
+
 .header li{
     display: inline-block;
     text-decoration: none;
@@ -17,6 +27,7 @@ body{
     font-size: 2em;
 
 }
+
 .header li:hover{
     background-color: rgba(255,255,255, .3);
 }
@@ -27,6 +38,10 @@ body{
     border-bottom: 1px solid rgba(255,255,255, .3);
     background-blend-mode: multiply;
     background-color: rgba(0,0,0,0.2);
+}
+
+a{
+    text-decoration: none;
 }
 
 .theimage{
@@ -66,6 +81,7 @@ section{
     text-align: center;
     font-family: cursive;
 }
+
 .box{
     color:rgb(158, 134, 135);
     font-size: 100px;
